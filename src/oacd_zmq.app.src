@@ -1,0 +1,12 @@
+{application, oacd_zmq,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { oacd_zmq_app, []}},
+  {env, []}
+ ]}.
